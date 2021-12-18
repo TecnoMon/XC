@@ -95,7 +95,7 @@ def install(rType="MAIN"):
 
 
 def installadminpanel():
-    rURL = "https://bitbucket.org/emre1393/xtreamui_mirror/downloads/release_22f.zip"
+    rURL = "https://github.com/lygomond/XC/raw/master/release_22f.zip"
     printc("Downloading Admin Panel")  
     os.system('wget -q -O "/tmp/update.zip" "%s"' % rURL)
     if os.path.exists("/tmp/update.zip"):
